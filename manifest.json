@@ -11,7 +11,7 @@
   ],
   "background": {
     "persistent": false,
-    "scripts": ["background.js", "wiki_trail.js"]
+    "scripts": ["background.js"]
   },
   "content_scripts": [
     {
