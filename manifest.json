@@ -1,0 +1,23 @@
+{
+  "name": "WikiTrail",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Extention that displays your Wikipedia history path.",
+  "icons": {},
+  "permissions": [
+    "tabs",
+    "webNavigation",
+    "storage"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js", "wiki_trail.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*.wikipedia.org/*"],
+      "css": ["contentStyles.css"],
+      "js": ["jquery.js", "contentScript.js"]
+    }
+  ]
+}

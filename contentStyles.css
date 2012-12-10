@@ -1,0 +1,18 @@
+.wikitrail {
+  position: absolute;
+  top: 0;
+  left: 200px;
+  background-color: rgba(0,0,0,0.1);
+}
+
+.wikitrail a {
+  
+}
+
+.wikitrail a:after {
+  content: ' > ';
+}
+
+.wikitrail a:last-child:after {
+  content: '';
+}
