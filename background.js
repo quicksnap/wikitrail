@@ -2,7 +2,6 @@
 * WikiTrail
 * -Dan Schuman, 2012
 *
-* Memory bug: doesn't delete stashed URLS after tab is closed. tab.on
 */
 function WikiTrail() {
   var that = this;
